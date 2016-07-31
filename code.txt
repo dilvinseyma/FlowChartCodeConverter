@@ -1,0 +1,13 @@
+program deneme;
+var
+ i,n,ort : integer;
+  
+begin
+ i:=0;
+ n:=10;
+ toplam:=0;
+  for i:=1 to n do begin
+ toplam:=toplam+i;
+  end;
+ WriteLn('toplam');
+end
